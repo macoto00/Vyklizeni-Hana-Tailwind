@@ -1,0 +1,14 @@
+/* Add your existing styles here */
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.1);
+}
